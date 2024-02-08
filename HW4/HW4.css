@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.box1{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-top: 50px;
+    border: 2px solid lightgray;
+    border-radius: 2px;
+}
+
+.box2{
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    margin-top: 10px;
+    border: 2px solid lightgray;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inst{
+    display: flex;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+}
