@@ -42,3 +42,13 @@
     margin-top: 40px;
     flex-direction: column;
 }
+
+.fb img{
+    margin-right: -5px;
+}
+
+.fb img,
+.fb a {
+    vertical-align: middle;
+    display: inline-block;
+}

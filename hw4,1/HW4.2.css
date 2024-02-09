@@ -52,7 +52,7 @@ section{
 }
 
 #number2{
-    background-image: url(https://wallpapercrafter.com/th8004/1314024-white-minimal-abstract-exterior-building-texture.jpg);
+    background-image: url(bg_lighted.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -62,7 +62,7 @@ section{
 }
 
 #number3{
-    background-image: url(https://wallpapercrafter.com/th8004/1314024-white-minimal-abstract-exterior-building-texture.jpg);
+    background-image: url(bg_lighted.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -84,12 +84,29 @@ section{
     align-items: center;
     flex-direction: column;
     margin-top: 25px;
+    transition: 2s;
+}
+
+.box44h .h-i:last-child{
+    display: none;
+    transition: 2s;
+}
+
+.box44:hover .h-i:first-child{
+    display: none;
+    transition: 2s;
+}
+
+.box44:hover .h-i:last-child{
+    display: block;
+    transition: 2s;
 }
 
 .box5{
     width: 454px;
     height: 700px;
     background: rgba(83, 83, 83, 0.40);
+    border-radius: 5px;
 }
 
 .box55{
@@ -100,11 +117,27 @@ section{
     margin-top: 25px;
 }
 
+.box55h .h-i:last-child{
+    display: none;
+    transition: 2s;
+}
+
+.box55:hover .h-i:first-child{
+    display: none;
+    transition: 2s;
+}
+
+.box55:hover .h-i:last-child{
+    display: block;
+    transition: 2s;
+}
+
 .box6{
     width: 454px;
     height: 700px;
     background: rgba(83, 83, 83, 0.40);
     margin-right: 25px;
+    border-radius: 5px;
 }
 
 .box66{
@@ -113,4 +146,19 @@ section{
     align-items: center;
     flex-direction: column;
     margin-top: 25px;
+}
+
+.box66h .h-i:last-child{
+    display: none;
+    transition: 2s;
+}
+
+.box66:hover .h-i:first-child{
+    display: none;
+    transition: 2s;
+}
+
+.box66:hover .h-i:last-child{
+    display: block;
+    transition: 2s;
 }
